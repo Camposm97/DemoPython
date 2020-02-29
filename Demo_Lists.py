@@ -20,16 +20,44 @@ myList[1] = 22
 
 myList.append("Campos")
 print(myList)
-print("Ths size of my list is", myList.__len__())   # Weird function to get size of list
-myList.insert(0, 'Campos');
+myList.insert(0, 'Bear');
 print(myList)   # I try to replace my element at 0 but Python added onto like a LinkedList
 myList.remove('Campos')
 print(myList)
+
 # myList.sort() I'll get an error if i try to sort because my list contains numbers and strings
-myList.remove(22)
+value = 22
+myList.remove(value)    # Remove 22 so I can sort
+# I can remove an element using a variable like in Java
+
+# Add more elements
 myList.append('Computer')
 myList.append("Science")
 myList.append('Apple')
 print("Unsorted", myList)
 myList.sort()
 print("Sorted", myList)
+
+# Another way to delete an element from my list is to use
+# the del keyword and then the index of the the list
+del myList[0]
+print("After deletion:", myList)
+
+# I can also call a function called pop() it returns the first element I inserted, treating
+# the data structure as a stack.  Something interesting about the stack function is that
+# I can pass a value in the parameters and pop a specific value at index n from the my list
+value = myList.pop()
+print("Popped Element:", value)
+print(myList)
+
+myList.reverse()    # There's also a function where I can reverse the list
+print(myList)
+
+# If I want to find out about the size of my list I can the len() function and
+# pass my list in there to find the size
+print("The current size of my list is", len(myList))
+
+# If I wanted to sort the list without changing the list itself, I can call
+# the sorted() function that returns the my list sorted
+print("Temp Sort: ", sorted(myList))
+
