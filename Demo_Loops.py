@@ -29,4 +29,18 @@ def display_list(arr):  # Function for display list
     print() # Print new line
 
 
+def create_list():
+    size = int(input("Please enter the size of the list: "))
+    nums = []
+
+    while size > 0:
+        nums.append(int(input("Enter a number: ")))
+        size = size - 1 # Decrement size
+    print("Max:", max(nums))
+    print("Min:", min(nums))
+    print("Sum:", sum(nums))
+
+
 main()  # Call main function
+create_list()
+print("Done")
