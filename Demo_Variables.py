@@ -1,4 +1,5 @@
-# This is a comment
+import math
+# Imports by conventions are at the top of the file
 'Another way to make a comment'
 # No need to declare the data type anymore.
 # You just need to declare the name of the
@@ -29,3 +30,26 @@ print(msg1 + ' ' + str(age) + ' ' + msg2)
 # and append it with a number you jut have to use + to add the number.
 # However, in python you have to use their str() function to parse the int
 # to a string.
+
+# I want to make numbers
+x = 7
+y = 21
+print("x + y =", x + y)
+print("x - y =", x - y)
+print("x * y =", x * y)
+print("x / y =", x / y)
+print("x // y =", x // y)   # Floor Division, something Java doesn't have
+print("x % y =", x % y)
+
+# I want to make a floating point number
+pi = math.pi
+print("math.pi = ", pi)
+# If you don't want to append to the string you can also put a comma after the
+# end of the string and pass the number there.
+# For example, if I wanted to print my age with the messages I would do this:
+print("Printing using commas:")
+print(msg1, age, msg2)
+# By default, pythons adds spaces between the variables you're printing
+# Also something important to notice is that the print() function
+# prints a new line after.
+print("Done.")  # End of Program
