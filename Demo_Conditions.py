@@ -5,11 +5,11 @@ def computeAge(age):
         print("You have an even age")
 
 def askForAge():
-    return int(input("Please enter your age: "))
+    return int(input("Please enter your age: "))    # Parse input into integer
 
 
 def askForScore():
-    return int(input("Please enter your score: "))
+    return int(input("Please enter your score: "))  # Parse input to integer
 
 
 def computeScore(score):
@@ -25,7 +25,7 @@ def computeScore(score):
         else:
             return 'F'
     else:
-        return 'out of range'
+        return 'out of range'   # Else grade is not within 0-100
 
 
 age = askForAge()
@@ -33,4 +33,5 @@ computeAge(age)
 score = askForScore()
 grade = computeScore(score)
 print("Your grade is", grade)
+print("Done")
 
