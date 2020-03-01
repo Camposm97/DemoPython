@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07d22770-e713-4641-8aa1-e5292c5da1a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Demo_Conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo_Conditions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Demo_Classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Campos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo_Conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Demo_Conditions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo_Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Demo_Lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo_Loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Demo_Loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo_Variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Demo_Variables.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo_Conditions.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Demo_Conditions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="252">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Demo_Classes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/Campos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="59" selection-start-column="59" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -45,6 +70,15 @@
         <option value="$PROJECT_DIR$/Demo_Loops.py" />
         <option value="$PROJECT_DIR$/Demo_Conditionals" />
         <option value="$PROJECT_DIR$/Demo_Conditions.py" />
+        <option value="$PROJECT_DIR$/Student.py" />
+        <option value="$PROJECT_DIR$/Demo_Classes.py" />
+        <option value="$PROJECT_DIR$/Name.py" />
+        <option value="$PROJECT_DIR$/model/app/Demo_Classes.py" />
+        <option value="$PROJECT_DIR$/model/Student.py" />
+        <option value="$PROJECT_DIR$/model/Name.py" />
+        <option value="$PROJECT_DIR$/model/My_Classes.py" />
+        <option value="$PROJECT_DIR$/app/Demo_Classes.py" />
+        <option value="$PROJECT_DIR$/model/Campos.py" />
       </list>
     </option>
   </component>
@@ -77,6 +111,16 @@
               <item name="DemoPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="DemoPython" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DemoPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoPython" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoPython" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -90,6 +134,8 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Darkp\Desktop\DemoPython" />
+      <recent name="C:\Users\Darkp\Desktop\DemoPython\model\app" />
+      <recent name="C:\Users\Darkp\Desktop\DemoPython\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,7 +151,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Demo_Loops" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Demo_Classes" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DemoPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +163,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo_Conditions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/Demo_Classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,6 +188,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2247191" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.2247191" />
@@ -149,7 +196,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26203966" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -208,7 +255,7 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo_Variables.py">
+    <entry file="file://$PROJECT_DIR$/app/Demo_Variables.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
@@ -224,7 +271,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo_Loops.py">
+    <entry file="file://$PROJECT_DIR$/app/Demo_Loops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
@@ -245,17 +292,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo_Lists.py">
+    <entry file="file://$PROJECT_DIR$/app/Demo_Lists.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo_Conditions.py">
+    <entry file="file://$PROJECT_DIR$/model/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Demo_Conditions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state relative-caret-position="252">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Student.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Name.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Demo_Classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Campos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="59" selection-start-column="59" selection-end-column="59" />
         </state>
       </provider>
     </entry>
