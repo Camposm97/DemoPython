@@ -1,0 +1,5 @@
+This is a sentence.
+This is not a real file.
+Remember to learn programming at a young age.
+Programming is an art.
+Computer Science is a good major.
